@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scy.mapper.BookMapper">
+
+    <!--获取返回mapper值-->
+    <resultMap id="book" type="com.scy.pojo.Book">
+        <id column="book_id" property="book_id"></id>
+        <result column="book_title" property="book_title"></result>
+        <result column="book_author" property="book_author"></result>
+        <result column="book_description" property="book_description"></result>
+        <result column="book_status" property="book_status"></result>
+    </resultMap>
+
+
+
+</mapper>

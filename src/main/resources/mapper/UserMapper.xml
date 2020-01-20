@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scy.mapper.UserMapper">
+
+    <!--获取返回mapper值-->
+    <resultMap id="user" type="com.scy.pojo.User">
+        <id column="userid" property="userid"></id>
+        <result column="username" property="username"></result>
+        <result column="userpwd" property="userpwd"></result>
+        <result column="nickname" property="nickname"></result>
+        <result column="phone" property="phone"></result>
+        <result column="email" property="email"></result>
+        <result column="status" property="status"></result>
+    </resultMap>
+
+
+
+</mapper>

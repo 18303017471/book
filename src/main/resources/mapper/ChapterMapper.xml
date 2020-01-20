@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scy.mapper.ChapterMapper">
+
+    <!--获取返回mapper值-->
+    <resultMap id="chapter" type="com.scy.pojo.Chapter">
+        <id column="chapter_id" property="chapter_id"></id>
+        <result column="book_id" property="book_id"></result>
+        <result column="chapter_title" property="chapter_title"></result>
+        <result column="charpter_info" property="charpter_info"></result>
+        <result column="book_last_update_time" property="book_last_update_time"></result>
+        <result column="book_last_chapter_info" property="book_last_chapter_info"></result>
+    </resultMap>
+
+
+
+</mapper>
